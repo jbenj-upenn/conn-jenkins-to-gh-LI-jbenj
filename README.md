@@ -10,3 +10,6 @@ Trying again at 1:08 PM est.
 Trouble shooting 'ECONNREFUSED'.
 Updated port from 8080 to 80, per this output in the terminal:
 ![image](https://github.com/jbenj-upenn/conn-jenkins-to-gh-LI-jbenj/assets/59940368/a589d508-744c-45e5-9d39-92484267d818)
+
+Searched 'smee.io ECONNREFUSED TCPConnectWrap.afterConnect'
+Changed port of smee to 8089 with the command:  smee --url https://smee.io/3vcoqlVpo6Bxldci --path /github-webhook/ --port 8099
